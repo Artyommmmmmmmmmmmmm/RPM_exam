@@ -1,0 +1,68 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 OPR/130.0.0.0 (Edition Yx GX)">
+  <diagram name="Страница-1" id="3ML5R5uPtmJRvuyuHmd-">
+    <mxGraphModel dx="1369" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2vaLP1km66Wru3bcRNJn-46" edge="1" parent="1" source="2vaLP1km66Wru3bcRNJn-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="2vaLP1km66Wru3bcRNJn-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-45" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="speed" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-48" edge="1" parent="1" source="2vaLP1km66Wru3bcRNJn-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="2vaLP1km66Wru3bcRNJn-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="определение входных данных" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-57" edge="1" parent="1" source="2vaLP1km66Wru3bcRNJn-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="2vaLP1km66Wru3bcRNJn-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="сохранение времени до" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-58" edge="1" parent="1" source="2vaLP1km66Wru3bcRNJn-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="2vaLP1km66Wru3bcRNJn-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="выполнение" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-59" edge="1" parent="1" source="2vaLP1km66Wru3bcRNJn-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="2vaLP1km66Wru3bcRNJn-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="сохранение времени после" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-60" edge="1" parent="1" source="2vaLP1km66Wru3bcRNJn-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="2vaLP1km66Wru3bcRNJn-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="высчитывание времени выполнения" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-55" edge="1" parent="1" source="2vaLP1km66Wru3bcRNJn-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="2vaLP1km66Wru3bcRNJn-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-62" edge="1" parent="1" source="2vaLP1km66Wru3bcRNJn-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="2vaLP1km66Wru3bcRNJn-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-53" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="еще остались непроверенные данные" vertex="1">
+          <mxGeometry height="120" width="120" x="340" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-56" edge="1" parent="1" source="2vaLP1km66Wru3bcRNJn-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="2vaLP1km66Wru3bcRNJn-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="проверка следующих данных" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-61" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="завершение" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="790" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

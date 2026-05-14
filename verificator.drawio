@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 OPR/130.0.0.0 (Edition Yx GX)">
+  <diagram name="Страница-1" id="3ML5R5uPtmJRvuyuHmd-">
+    <mxGraphModel dx="1369" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2vaLP1km66Wru3bcRNJn-80" edge="1" parent="1" source="2vaLP1km66Wru3bcRNJn-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="2vaLP1km66Wru3bcRNJn-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-73" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="verificator" vertex="1">
+          <mxGeometry height="80" width="120" x="330" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-84" edge="1" parent="1" source="2vaLP1km66Wru3bcRNJn-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="2vaLP1km66Wru3bcRNJn-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-75" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="сравнения вывода с ожиданиями" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-83" edge="1" parent="1" source="2vaLP1km66Wru3bcRNJn-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="2vaLP1km66Wru3bcRNJn-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="выполнение" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-82" edge="1" parent="1" source="2vaLP1km66Wru3bcRNJn-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="2vaLP1km66Wru3bcRNJn-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-77" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="определение ожидаемого вывода" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-81" edge="1" parent="1" source="2vaLP1km66Wru3bcRNJn-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="2vaLP1km66Wru3bcRNJn-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="определение входных данных" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaLP1km66Wru3bcRNJn-79" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="завершение" vertex="1">
+          <mxGeometry height="80" width="120" x="330" y="560" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
