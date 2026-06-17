@@ -1,38 +1,62 @@
-from main import main
+import main
+
 def verificate():
     text = "Green Blue Blue Red"
+
     expected_amount = 4
     expected_unique = 3
-    expected_frequency = {"Blue" : 2, "Green" : 1, "Red" : 1}
+    expected_frequency = {
+        "blue": 2,
+        "green": 1,
+        "red": 1
+    }
+    expected_avg_length = 4.0
+    expected_longest_word = "green"
 
-    data = main(text)
-    a = False
-    u = False
-    f = False
-    if data["amount"] == expected_amount:
-        a = True
-    if data["unique"] == expected_unique:
-        u = True
+    data = main.main(text)
+
+    a = data["amount"] == expected_amount
+    u = data["unique"] == expected_unique
+
     frequency_dict = dict(data["frequency"])
-    r = frequency_dict["red"] == expected_frequency["Red"]
-    g = frequency_dict["green"] == expected_frequency["Green"]
-    b = frequency_dict["blue"] == expected_frequency["Blue"]
-    if r and g and b:
-        f = True
+    f = all(
+        frequency_dict.get(word) == count
+        for word, count in expected_frequency.items()
+    )
 
-    print(a, u, f)
-    if a:
-        print("Тест результатов количества пройден")
-    else:
-        print("Тест результатов количества не пройден")
-    if u:
-        print("Тест результатов уникальности пройден")
-    else:
-        print("Тест результатов уникальности не пройден")
-    if f:
-        print("Тест результатов частоты пройден")
-    else:
-        print("Тест результатов частоты не пройден")
+    avg = data["avg_length"] == expected_avg_length
+    longest = data["longest_word"] == expected_longest_word
+
+    print(
+        "Тест результатов количества пройден"
+        if a else
+        "Тест результатов количества не пройден"
+    )
+
+    print(
+        "Тест результатов уникальности пройден"
+        if u else
+        "Тест результатов уникальности не пройден"
+    )
+
+    print(
+        "Тест результатов частоты пройден"
+        if f else
+        "Тест результатов частоты не пройден"
+    )
+
+    print(
+        "Тест средней длины слова пройден"
+        if avg else
+        "Тест средней длины слова не пройден"
+    )
+
+    print(
+        "Тест самого длинного слова пройден"
+        if longest else
+        "Тест самого длинного слова не пройден"
+    )
+
 
 if __name__ == "__main__":
     verificate()
